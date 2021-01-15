@@ -44,7 +44,7 @@ button {
     background-color: aliceblue;
 
     font-family: 'Red Rose', cursive;
-    font-size: 2rem;
+    font-size: 10em;
     text-shadow: 6px 8px 4px rgba(0, 0, 0, 0.25);
 
     cursor: pointer; 
