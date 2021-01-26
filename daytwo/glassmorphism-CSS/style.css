@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #55439E, #952FFF);
+}
+.main-container {
+    height: 100%;
+    width: 100%;
+
+    position: relative;
+
+    background-image: url(/glassmorphism-CSS/imgs/Component\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#my-form {
+    position: absolute; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 400px;
+    height: 500px;
+
+    left: 470px;
+    top: 75px;
+
+    background: rgba(255, 255, 255, 0.15);
+    
+    backdrop-filter: blur(10px);
+
+    border-radius: 20px;
+
+}
+label, input, form img{
+    margin-bottom: 20px;
+}
+label {
+    color: white;
+    font-family: Lato;
+    font-size: 23px;
+}
+input {
+    border: none;
+
+    width: 285px;
+    height: 38px;
+
+    background: #C4C4C4;
+    border-radius: 20px;
+}
+input placeholder {
+    text-align: center;
+}
+#email::-webkit-input-placeholder,
+#password::-webkit-input-placeholder {
+    text-align: center;
+    font-family: Lato;
+}
+button {
+    border: none;
+    background:#55439E;
+
+    font-family: Lato;
+    font-size: 20px;
+    color: white;
+
+    width: 150px;
+    height: 40px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+}
